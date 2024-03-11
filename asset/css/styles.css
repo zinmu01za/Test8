@@ -3,11 +3,11 @@
 }
 
 .dropdown-menu .dropdown-item:hover{
-    background-color: rgb(180, 190, 199);
+    background-color: rgb(243, 63, 31);
 }
 
 .nav-link:hover{
-    background-color: rgb(180, 190, 199);
+    background-color: rgb(243, 63, 31);
 }
 
 .nav-link{
@@ -26,7 +26,7 @@
 }
 
 .section3{
-    background-color: rgb(199, 134, 55);
+    background-color: rgb(241, 239, 237);
     height: 100vh;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .image{
-    margin-top: 10vh;
+    padding-top: 10vh;
     width: 40%;
     height: 40%;
 }
@@ -49,7 +49,7 @@
 }
 
 .vdo1{
-    margin-top: 2vh;
+    padding-top: 2vh;
     width: 40%;
     height: 40%;
 }
@@ -73,3 +73,66 @@
     width: 320px;
     margin-top: 10vh;
 }
+
+.textstyle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.head1{
+    font-size: 20rem;
+    color: transparent;
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0BE10RRCUm0XdpMGXeWQs3FPDR5UCXBuLSPsiE1dxgnjXNOQDwTAIgm33kZaafkNI_jPPClhpYmJaurHOm2X1C5Dx5qGAGym481A6Db9NDhahjDvn6sRp7TCmr4Ik1pwgS96KjLanGtc/s1600/1.jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align: center;
+    margin: 0;
+}
+
+/*ส่วนขยานของ Text รูปภาพ เวลา Responsive ขนาดหน้าต่างขนาดอื่นๆ*/
+@media only screen and (max-width: 576px) {
+    .head1 {
+        font-size: 8rem; /* Further adjust font size for even smaller screens */
+    }
+   
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+    .head1 {
+        font-size: 12rem;
+    }
+    
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .head1 {
+        font-size: 14rem;
+    }
+   
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    .head1 {
+        font-size: 16rem;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+    .head1 {
+        font-size: 18rem;
+    }
+    
+}
+
+@media only screen and (min-width: 1401px) {
+    .head1 {
+        font-size: 20rem;
+    }
+   
+}
+
+/*จบส่วนขยานของ Text รูปภาพ เวลา Responsive ขนาดหน้าต่างขนาดอื่นๆ*/
