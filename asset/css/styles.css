@@ -74,6 +74,21 @@
     margin-top: 10vh;
 }
 
+
+.child-element-left2{
+    background-color: rgb(248, 167, 15);
+    height: 320px;
+    width: 320px;
+    margin-top: 10vh;
+}
+
+.child-element-right2{
+    background-color: rgb(14, 85, 240);
+    height: 320px;
+    width: 320px;
+    margin-top: 10vh;
+}
+
 .textstyle{
     display: flex;
     justify-content: center;
