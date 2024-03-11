@@ -1,0 +1,75 @@
+.bg{
+    background-color: rgb(77, 75, 75);
+}
+
+.dropdown-menu .dropdown-item:hover{
+    background-color: rgb(180, 190, 199);
+}
+
+.nav-link:hover{
+    background-color: rgb(180, 190, 199);
+}
+
+.nav-link{
+    border-radius: 10px;
+}
+
+.section{
+    background-color: bisque;
+    height: 100vh;
+}
+
+.section2{
+    background-color: rgb(206, 163, 111);
+    height: 100vh;
+    
+}
+
+.section3{
+    background-color: rgb(199, 134, 55);
+    height: 100vh;
+}
+
+.bgm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    margin-top: 10vh;
+    width: 40%;
+    height: 40%;
+}
+
+.vdo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vdo1{
+    margin-top: 2vh;
+    width: 40%;
+    height: 40%;
+}
+
+.parent-element{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+.child-element-left{
+    background-color: red;
+    height: 320px;
+    width: 320px;
+    margin-top: 10vh;
+}
+
+.child-element-right{
+    background-color: rgb(74, 248, 5);
+    height: 320px;
+    width: 320px;
+    margin-top: 10vh;
+}
