@@ -131,6 +131,14 @@
 }
 
 
+.bgm1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 /*ส่วนขยานของ Text รูปภาพ เวลา Responsive ขนาดหน้าต่างขนาดอื่นๆ*/
 @media only screen and (max-width: 576px) {
     .head1 {
