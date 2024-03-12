@@ -105,34 +105,66 @@
     background-clip: text;
     -webkit-background-clip: text;
     text-align: center;
-    margin: 0;
+    padding-top: 4vh;
 }
+
+.section4{
+    background-color: black;
+    height: 100vh;
+}
+
+.bangkok{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headbk{
+    font-size: 20rem;
+    background-image: url(https://a.cdn-hotels.com/gdcs/production22/d1769/8f94419d-5e5a-44c5-82fc-fc26eb1a9767.jpg?impolicy=fcrop&w=800&h=533&q=medium);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    padding-top: 4vh;
+    text-align: center;
+}
+
 
 /*ส่วนขยานของ Text รูปภาพ เวลา Responsive ขนาดหน้าต่างขนาดอื่นๆ*/
 @media only screen and (max-width: 576px) {
     .head1 {
         font-size: 8rem; /* Further adjust font size for even smaller screens */
     }
-   
+    .headbk {
+        font-size: 6rem; /* Further adjust font size for even smaller screens */
+    }
 }
 
 @media only screen and (min-width: 577px) and (max-width: 768px) {
     .head1 {
-        font-size: 12rem;
+        font-size: 10rem;
     }
-    
+    .headbk {
+        font-size: 7rem; /* Further adjust font size for even smaller screens */
+    }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 992px) {
     .head1 {
         font-size: 14rem;
     }
-   
+    .headbk {
+        font-size: 10rem; /* Further adjust font size for even smaller screens */
+    }
 }
 
 @media only screen and (min-width: 993px) and (max-width: 1200px) {
     .head1 {
         font-size: 16rem;
+    }
+    .headbk {
+        font-size: 12rem; /* Further adjust font size for even smaller screens */
     }
 }
 
@@ -140,14 +172,18 @@
     .head1 {
         font-size: 18rem;
     }
-    
+    .headbk {
+        font-size: 14rem; /* Further adjust font size for even smaller screens */
+    }
 }
 
 @media only screen and (min-width: 1401px) {
     .head1 {
         font-size: 20rem;
     }
-   
+    .headbk {
+        font-size: 16rem; /* Further adjust font size for even smaller screens */
+    }
 }
 
 /*จบส่วนขยานของ Text รูปภาพ เวลา Responsive ขนาดหน้าต่างขนาดอื่นๆ*/
